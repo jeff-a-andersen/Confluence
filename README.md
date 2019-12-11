@@ -42,5 +42,5 @@ jQuery(document).ready(function() {
 ## Back to Top Link
 
 ```javascript
-<script>AJS.$('#main-content').after('<div><a onClick="window.scrollTo(0, 0);">Back to top</a></div>');</script>
+<script>AJS.$('#main-content').after('<div><a style="position:fixed;bottom:20px;right: 20px;" onClick="window.scrollTo(0, 0);">Back to Top</a></div>');</script>
 ```
