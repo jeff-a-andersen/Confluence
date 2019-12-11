@@ -39,3 +39,8 @@ jQuery(document).ready(function() {
 });
 </script>
 ```
+## Back to Top Link
+
+```javascript
+<script>AJS.$('#main-content').after('<div><a onClick="window.scrollTo(0, 0);">Back to top</a></div>');</script>
+```
